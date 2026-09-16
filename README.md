@@ -7,14 +7,10 @@ the risk of **Diabetes**, **Heart Disease**, and to suggest a likely
 Migraine, Food Poisoning). Built as a VITyarthi "Build Your Own Project"
 submission.
 
-> ⚠️ **Disclaimer:** This is an academic project for learning applied
-> machine learning and software engineering. It uses synthetically
-> generated data and is **not** a certified medical device. It must
-> never be used for real clinical diagnosis or treatment decisions.
 
 ---
 
-## 📋 Overview
+## Overview
 
 Instead of one narrow script, the project is built as a small, modular
 system with three functional modules that talk to each other:
@@ -53,7 +49,7 @@ demoed without any extra setup.
 
 ---
 
-## 🧱 Project Structure
+## Project Structure
 
 ```
 disease-prediction-system/
@@ -93,7 +89,7 @@ disease-prediction-system/
 
 ---
 
-## 🪜 Steps to Install & Run the Project
+## Steps to Install & Run the Project
 
 **Prerequisites:** Python 3.10+ installed.
 
@@ -113,7 +109,7 @@ pip install -r requirements.txt
 python main.py
 ```
 
-That's it — **no manual setup step is needed.** The first time you run
+ **no manual setup step is needed.** The first time you run
 `main.py`, it automatically:
 - generates the three synthetic datasets in `data/` (if not already present),
 - trains all three ML models,
